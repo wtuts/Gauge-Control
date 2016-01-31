@@ -1,0 +1,77 @@
+﻿<Page x:Class="Gauge.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:controls="using:Gauge.Controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:Gauge"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+      mc:Ignorable="d">
+    <Page.Resources>
+        <Style x:Key="Gauge" TargetType="controls:Gauge">
+            <Setter Property="FontFamily" Value="Segoe WP" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="controls:Gauge">
+                        <Viewbox>
+                            <Grid x:Name="Container"
+                                  Width="200"
+                                  Height="200"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center">
+                                <Path Name="PART_Scale"
+                                      Fill="Red"
+                                      Stroke="{TemplateBinding ScaleBrush}"
+                                      StrokeThickness="{TemplateBinding ScaleWidth}" />
+                                <Path Name="PART_Trail"
+                                      Stroke="{TemplateBinding TrailBrush}"
+                                      StrokeThickness="{TemplateBinding ScaleWidth}" />
+                                <StackPanel HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Orientation="Vertical">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Name="PART_ValueText"
+                                                   Margin="0 0 0 2"
+                                                   FontFamily="{TemplateBinding FontFamily}"
+                                                   FontSize="{TemplateBinding FontSize}"
+                                                   Foreground="White"
+                                                   Text="{TemplateBinding Value}"
+                                                   TextAlignment="Center" />
+                                        <TextBlock Margin="0 0 0 2"
+                                                   FontFamily="{TemplateBinding FontFamily}"
+                                                   FontSize="{TemplateBinding FontSize}"
+                                                   Foreground="White"
+                                                   Text=" %"
+                                                   TextAlignment="Center" />
+                                    </StackPanel>
+                                    <TextBlock FontSize="18"
+                                               Text="Profile"
+                                               TextAlignment="Center" />
+                                    <TextBlock FontSize="18"
+                                               Text="Strength"
+                                               TextAlignment="Center" />
+                                </StackPanel>
+                            </Grid>
+                        </Viewbox>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <controls:Gauge Width="136"
+                        Height="136"
+                        Margin="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="32"
+                        Maximum="100"
+                        ScaleBrush="Blue"
+                        ScaleWidth="20"
+                        Style="{StaticResource Gauge}"
+                        TrailBrush="White"
+                        ValueBrush="Maroon"
+                        Value="40" />
+    </Grid>
+</Page>

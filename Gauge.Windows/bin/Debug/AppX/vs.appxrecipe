@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-LGN6M56</Machine>
+    <WindowsUser>maska</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8e048a66-9d3a-4da4-803f-2dc0f8cd4195</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3F117DC322F5F1C81082BAEF8DAAB6688796F835519BDD8DCDDCD529A2232885</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8e048a66-9d3a-4da4-803f-2dc0f8cd4195_1.0.0.0_neutral__ts5xa7760fser</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8e048a66-9d3a-4da4-803f-2dc0f8cd4195_ts5xa7760fser!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8e048a66-9d3a-4da4-803f-2dc0f8cd4195</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=maska</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-31T09:57:56.240</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\bin\Debug\Gauge.Windows.exe">
+      <PackagePath>Gauge.Windows.exe</PackagePath>
+      <Modified>2016-01-31T10:03:53.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\bin\Debug\Gauge.Windows.xr.xml">
+      <PackagePath>Gauge.Windows.xr.xml</PackagePath>
+      <Modified>2016-01-31T09:57:55.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-01-31T10:03:53.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-01-31T09:57:00.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\Gauge\Gauge.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-01-31T09:57:55.964</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
